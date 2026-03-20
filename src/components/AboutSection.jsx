@@ -36,7 +36,18 @@ export default function AboutSection() {
           </p>
           <p>
             I'm only 15 right now, but I'm planning to go fully mobile as soon as I get my license.
-            This is just the beginning.
+            This is just the beginning. 
+          </p>
+          <p>  
+            I also do car photography & videography on the side, FOR FREE, which you can check out {" "}
+                <a
+                  href="https://tejusadepumedia.github.io/carmedia/"
+                  target = "_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#d4a853] hover:underline"
+                >
+                  here
+                </a>{""}.
           </p>
         </motion.div>
 
