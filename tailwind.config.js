@@ -8,4 +8,5 @@ export default {
     extend: {},
   },
   plugins: [],
+  base: '/thewash/', // must match your GitHub repo name
 }
