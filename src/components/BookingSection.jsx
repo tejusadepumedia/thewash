@@ -2,7 +2,8 @@ import { motion } from "framer-motion";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 
 const socials = [
-  { name: "Instagram", icon: FaInstagram, url: "https://instagram.com/tejus.adepu", handle: "@tejus.adepu" },
+  { name: "Main Instagram", icon: FaInstagram, url: "https://instagram.com/tejus.adepu", handle: "@tejus.adepu" },
+  { name: "Detailing Instagram", icon: FaInstagram, url: "https://instagram.com/thewashdmv", handle: "@thewashdmv" },
   { name: "Facebook", icon: FaFacebook, url: "https://www.facebook.com/tejus.adepu", handle: "@tejus.adepu" },
   { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@tejus.cars", handle: "@tejus.cars" },
 ];

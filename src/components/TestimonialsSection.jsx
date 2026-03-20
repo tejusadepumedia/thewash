@@ -28,6 +28,18 @@ export default function TestimonialsSection() {
           <h2 className="text-3xl md:text-5xl font-light text-white">What Clients Say</h2>
         </div>
 
+        {/* Leave a Review Button */}
+        <div className="text-center mb-14">
+          <a
+            href="https://forms.gle/sa5X3K8W9UCShd5UA"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-3 border border-[#7eb8d4]/40 text-[#7eb8d4] text-xs uppercase tracking-widest hover:bg-[#7eb8d4] hover:text-[#0a0a0a] transition-all duration-300"
+          >
+            Leave a Review
+          </a>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6">
           {reviews.map((r, i) => (
             <motion.div

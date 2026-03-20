@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
+import heroImage from "/src/assets/DSC08011.jpg";
 
 export default function HeroSection() {
   const scrollToServices = () =>
@@ -7,11 +8,13 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-screen w-full overflow-hidden bg-[#0a0a0a] flex items-center justify-center">
-      {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] via-[#0d1a22] to-[#0a0a0a]" />
-      {/* Subtle radial glow */}
-      <div className="absolute inset-0 flex items-center justify-center">
-        <div className="w-[600px] h-[600px] rounded-full bg-[#7eb8d4]/5 blur-3xl" />
+            <div className="absolute inset-0">
+        <img
+          src={heroImage}
+          alt="Hero"
+          className="w-full h-full object-cover opacity-50"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-transparent to-[#0a0a0a]" />
       </div>
 
       <div className="relative z-10 text-center px-6">
