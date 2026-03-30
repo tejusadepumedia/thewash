@@ -5,6 +5,7 @@ const cars = [
   "2025 Lamborghini Revuelto",
   "2018 Lexus IS300 F Sport",
   "1999 C5 Corvette LS1",
+  "Tesla Model Y",
   "2013-18 Acura RDX",
   "Tesla Model X 100D",
   "2017 Mercedes-Benz GLE 350",
@@ -55,8 +56,8 @@ export default function CarsDetailedSection() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <p className="text-[#7eb8d4] text-xs uppercase tracking-[0.4em] mb-4">History</p>
-          <h2 className="text-3xl md:text-5xl font-light text-white mb-4">Cars Detailed</h2>
-          <p className="text-white/30 text-sm">Most recent first</p>
+          <h2 className="text-3xl md:text-5xl font-light text-white mb-4">Cars Detailed (recurring not listed)</h2>
+          <p className="text-white/30 text-sm">Featured then Most recent first</p>
           <div className="mt-4 inline-block">
             <p className="text-4xl font-light text-white">
               {cars.length}<span className="text-[#7eb8d4]">+</span>
