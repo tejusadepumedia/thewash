@@ -5,7 +5,8 @@ const socials = [
   { name: "Main Instagram", icon: FaInstagram, url: "https://instagram.com/tejus.adepu", handle: "@tejus.adepu" },
   { name: "Detailing Instagram", icon: FaInstagram, url: "https://instagram.com/thewashdmv", handle: "@thewashdmv" },
   { name: "Facebook", icon: FaFacebook, url: "https://www.facebook.com/tejus.adepu", handle: "@tejus.adepu" },
-  { name: "TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@tejus.cars", handle: "@tejus.cars" },
+  { name: "Detailing TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@thewashdmv", handle: "@thewashdmv" },
+  { name: "Main TikTok", icon: FaTiktok, url: "https://www.tiktok.com/@tejus.cars", handle: "@tejus.cars" }
 ];
 
 export default function BookingSection() {
