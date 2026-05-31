@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 const cars = [
   "2025 Lamborghini Revuelto",
   "2018 Lexus IS300 F Sport",
+  "2022 VW Golf GTI",
+  "2016 BMW 328i xDrive",
   "1999 C5 Corvette LS1",
   "Tesla Model Y",
   "2013-18 Acura RDX",
