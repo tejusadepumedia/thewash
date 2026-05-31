@@ -2,6 +2,7 @@ import Navigation from "/src/components/Navigation";
 import HeroSection from "/src/components/HeroSection";
 import ServicesSection from "/src/components/ServicesSection";
 import PricingSection from "/src/components/PricingSection";
+import AddonsSection from "/src/components/Addonssection";
 import BookingSection from "/src/components/BookingSection";
 import TestimonialsSection from "/src/components/TestimonialsSection";
 import CarsDetailedSection from "/src/components/CarsDetailedSection";
@@ -15,6 +16,7 @@ export default function Home() {
       <HeroSection />
       <ServicesSection />
       <PricingSection />
+      <AddonsSection />
       <TestimonialsSection />
       <CarsDetailedSection />
       <AboutSection />
