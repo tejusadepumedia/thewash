@@ -25,7 +25,7 @@ export default function Home() {
             WE ARE NOW MOBILE!
           </h2>
           <p className="mx-auto mt-5 max-w-2xl text-base font-light leading-relaxed text-white/70 md:text-lg">
-            well... almost. Its hybrid mobile detailing, we bring the stuff to you but we still need access to water and electricity.
+            well... almost. It's semi-mobile detailing: we bring the stuff to you, but we still need access to water and electricity.
           </p>
         </div>
       </section>

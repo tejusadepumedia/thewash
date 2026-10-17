@@ -38,6 +38,11 @@ export default function ServicesSection() {
         <div className="text-center mb-20">
           <p className="text-[#7eb8d4] text-xs uppercase tracking-[0.4em] mb-4">What We Do</p>
           <h2 className="text-3xl md:text-5xl font-light text-white">Our Services</h2>
+          <p className="mx-auto mt-6 max-w-2xl text-sm leading-relaxed text-white/50 md:text-base">
+            Semi-mobile detailing in Northern Virginia. We bring our detailing supplies and equipment
+            to you; you provide access to water and electricity. We do our best to keep water and
+            electricity use to a minimum, averaging about 15 gallons of water total per detail.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">

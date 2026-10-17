@@ -24,7 +24,7 @@ export default function HeroSection() {
           transition={{ duration: 1.2, delay: 0.3 }}
           className="text-[#7eb8d4] text-xs uppercase tracking-[0.5em] mb-6"
         >
-          Professional Car Detailing
+          Semi-Mobile Car Detailing
         </motion.p>
 
         <motion.h1

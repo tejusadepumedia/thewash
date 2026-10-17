@@ -35,8 +35,10 @@ export default function AboutSection() {
             in return, I make sure it leaves looking fresh, clean, and cared for.
           </p>
           <p>
-            I'm only 15 right now, but I'm planning to go fully mobile as soon as I get my license.
-            This is just the beginning. 
+            I now offer semi-mobile detailing: I bring the supplies and equipment to you, and all I
+            need is access to water and electricity at your location. I do my best to use as little
+            water and electricity as possible, averaging about 15 gallons of water total per detail.
+            This is just the beginning.
           </p>
           <p>  
             I also do car photography & videography on the side, FOR FREE, which you can check out {" "}

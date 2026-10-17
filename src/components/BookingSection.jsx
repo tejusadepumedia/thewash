@@ -22,7 +22,7 @@ export default function BookingSection() {
           <p className="text-[#7eb8d4] text-xs uppercase tracking-[0.4em] mb-4">Book</p>
           <h2 className="text-3xl md:text-4xl font-light text-white mb-6">Book an Appointment</h2>
           <p className="text-white/50 text-sm leading-relaxed max-w-xl mx-auto mb-10">
-            Text me at <a href="sms:571-752-2785" className="text-[#7eb8d4] hover:underline">571-752-2785</a> with your name, the year, make and model of your car, the package you want, any add-ons, and your preferred dates.
+            Text me at <a href="sms:571-752-2785" className="text-[#7eb8d4] hover:underline">571-752-2785</a> with your name, the year, make and model of your car, the package you want, any add-ons, your location, and your preferred dates. Please confirm that water and electricity are available for your semi-mobile detail.
           </p>
 
           {/* Example */}
@@ -30,7 +30,8 @@ export default function BookingSection() {
             <p className="text-[#7eb8d4] text-xs uppercase tracking-widest mb-3">Example Message</p>
             <p className="text-white/50 text-sm leading-relaxed italic">
               "Hey, my name is Tejus, and I would like a premium full detail on my 2016 Honda Civic Sport,
-              and maybe throw in the engine bay degreasing. I would preferably have it done Friday the 20th."
+              and maybe throw in the engine bay degreasing. I'm in Fairfax and would prefer next Friday.
+              I have water and electricity available at my location."
             </p>
           </div>
 
@@ -39,7 +40,8 @@ export default function BookingSection() {
             <p className="text-[#7eb8d4] text-xs uppercase tracking-widest mb-4">Important Policies</p>
             <div className="space-y-2 text-sm text-white/50">
               <p>⚠️ Please remove all personal belongings from your car (bags, shoes, apparel, etc.)</p>
-              <p>⏱ <span className="text-white/70">30-min late policy</span> — if you don't arrive within 30 minutes of your booking time, the appointment will be cancelled for that day.</p>
+              <p>Our semi-mobile service requires access to water and electricity at your location. We do our best to minimize both, averaging about 15 gallons of water total per detail.</p>
+              <p>⏱ <span className="text-white/70">30-min late policy</span> — if you or your vehicle aren't available within 30 minutes of your booking time, the appointment will be cancelled for that day.</p>
             </div>
           </div>
 
