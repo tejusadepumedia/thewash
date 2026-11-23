@@ -41,7 +41,6 @@ export default function BookingSection() {
             <div className="space-y-2 text-sm text-white/50">
               <p>⚠️ Please remove all personal belongings from your car (bags, shoes, apparel, etc.)</p>
               <p>Our semi-mobile service requires access to water and electricity at your location. We do our best to minimize both, averaging about 15 gallons of water total per detail.</p>
-              <p>⏱ <span className="text-white/70">30-min late policy</span> — if you or your vehicle aren't available within 30 minutes of your booking time, the appointment will be cancelled for that day.</p>
             </div>
           </div>
 
