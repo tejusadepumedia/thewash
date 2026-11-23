@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Check } from "lucide-react";
+import { SALE, salePrice, useSaleActive } from "/src/sale";
 
 const packages = [
   {
@@ -60,6 +61,7 @@ const packages = [
 
 export default function PricingSection() {
   const [selected, setSelected] = useState("full");
+  const saleActive = useSaleActive();
 
   return (
     <section id="pricing" className="bg-[#0a0a0a] py-24 md:py-32 px-4 md:px-8">
@@ -113,10 +115,16 @@ export default function PricingSection() {
               </div>
 
               <div className="mb-8">
+                {saleActive && (
+                  <p className="text-white/30 text-lg font-light line-through mb-1">${pkg.prices[selected]}</p>
+                )}
                 <p className="text-4xl font-light text-white">
-                  ${pkg.prices[selected]}
+                  ${saleActive ? salePrice(pkg.prices[selected]) : pkg.prices[selected]}
                   <span className="text-[#7eb8d4] text-sm ml-1">/ {selected === "full" ? "full" : selected}</span>
                 </p>
+                {saleActive && (
+                  <p className="text-[#7eb8d4] text-xs uppercase tracking-widest mt-2">{SALE.percentOff}% off · {SALE.name}</p>
+                )}
               </div>
 
               <div className="space-y-2 flex-1">

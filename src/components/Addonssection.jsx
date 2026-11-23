@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Plus } from "lucide-react";
+import { salePrice, useSaleActive } from "/src/sale";
 
 const addons = [
   {
@@ -15,6 +16,8 @@ const addons = [
 ];
 
 export default function AddonsSection() {
+  const saleActive = useSaleActive();
+
   return (
     <section className="bg-[#0a0a0a] pb-24 md:pb-32 px-4 md:px-8">
       <div className="max-w-6xl mx-auto">
@@ -38,9 +41,14 @@ export default function AddonsSection() {
                 <h3 className="text-lg font-light text-white leading-snug">
                   {addon.name}<span className="text-[#7eb8d4]">.</span>
                 </h3>
-                <p className="text-2xl font-light text-white shrink-0">
-                  +<span className="text-[#7eb8d4]">${addon.price}</span>
-                </p>
+                <div className="text-right shrink-0">
+                  {saleActive && (
+                    <p className="text-white/30 text-sm font-light line-through">+${addon.price}</p>
+                  )}
+                  <p className="text-2xl font-light text-white">
+                    +<span className="text-[#7eb8d4]">${saleActive ? salePrice(addon.price) : addon.price}</span>
+                  </p>
+                </div>
               </div>
               <p className="text-white/40 text-sm leading-relaxed flex-1">{addon.description}</p>
               <button
